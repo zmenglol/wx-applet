@@ -1,0 +1,19 @@
+/* 
+1、小程序中不需要主动引入样式文件
+2 需要把页面中某些元素的单位 由px 改成rpx
+ 屏幕像素=750rpx
+1rpx = xx 屏幕像素（px）
+3、存在一个设计稿 宽度 414 或者 未知page
+   1 设计稿page存在一个块级元素 宽度为 100px
+   2 拿以上需求 去实现 不同宽度的页面适配
+      page px = 750 rpx
+      1px=750 rpx / page
+      100px=750 rpx * 100 /page
+4、利用一个属性 calc 属性 css和wxss 都支持的一个属性
+*/
+ view{
+   width: calc(750rpx * 200/375);
+   height:calc(750rpx*200/375);
+   font-size: 40px  ;
+   background-color: aqua;
+  }
