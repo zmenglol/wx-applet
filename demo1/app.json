@@ -1,5 +1,10 @@
 {
-  "pages":[
+  "pages": [
+    "pages/demo15/demo15",
+    "pages/demo14/demo14",
+    "pages/demo13/demo13",
+    "pages/demo12/demo12",
+    "pages/demo11/demo11",
     "pages/demo10/demo10",
     "pages/demo09/demo09",
     "pages/demo08/demo08",
@@ -16,41 +21,42 @@
     "pages/select/select",
     "pages/logs/logs"
   ],
-  "window":{
-    "backgroundTextStyle":"dark",
+  "window": {
+    "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "hello",
-    "navigationBarTextStyle":"black",
-    "enablePullDownRefresh":true,
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
     "backgroundColor": "#019fff"
   },
-  "tabBar":{
-    "position":"bottom",
-    "list":[
+  "tabBar": {
+    "position": "bottom",
+    "list": [
       {
-      "pagePath":"pages/index/index",
-      "text":"首页",
-      "iconPath":"icon/_home.png",
-      "selectedIconPath":"icon/home.png"
-    },
-    {
-      "pagePath":"pages/img/img",
-      "text":"图片",
-      "iconPath":"icon/_img.png",
-      "selectedIconPath":"icon/img.png"
-    },
-    {
-      "pagePath":"pages/my/my",
-      "text":"我的",
-      "iconPath":"icon/_my.png",
-      "selectedIconPath":"icon/my.png"
-    },
-    {
-      "pagePath":"pages/select/select",
-      "text":"搜索",
-      "iconPath":"icon/_search.png",
-      "selectedIconPath":"icon/search.png"
-    }],
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/_home.png",
+        "selectedIconPath": "icon/home.png"
+      },
+      {
+        "pagePath": "pages/img/img",
+        "text": "图片",
+        "iconPath": "icon/_img.png",
+        "selectedIconPath": "icon/img.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "icon/_my.png",
+        "selectedIconPath": "icon/my.png"
+      },
+      {
+        "pagePath": "pages/select/select",
+        "text": "搜索",
+        "iconPath": "icon/_search.png",
+        "selectedIconPath": "icon/search.png"
+      }
+    ],
     "selectedColor": "#4B0091",
     "backgroundColor": "#E6CAFF"
   },

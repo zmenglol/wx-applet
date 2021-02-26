@@ -1,0 +1,6 @@
+<checkbox-group bindchange="handlechange">
+  <checkbox wx:for="{{list}}" wx:key="{{id}}" value="{{item.value}}">
+    {{item.name}}
+  </checkbox>
+</checkbox-group>
+<view>{{checkedList}}</view>
