@@ -3,3 +3,6 @@
 page{
   --themColor:#eb4450;
 }
+image{
+  width: 100%;
+}
